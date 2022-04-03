@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt aufnehmen</title>
+    
+    <style>
+
+        h1{
+            
+            text-align: center;
+             margin: auto;
+             width: 70%;
+             letter-spacing: 4px;
+             filter: drop-shadow(0 0 1.75rem rgb(15, 158, 214));
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        
+        }
+
+        .Formular{
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 3px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif     ;            
+        }
+        .Textfeld{
+            display: block;
+            border:1.5px solid rgb(38, 141, 141);
+            margin-left: 3px;
+            width: 97.9%;
+            background: rgb(22, 22, 22);
+            border-style: dotted;
+        }
+        input{
+            border:1.5px solid rgb(38, 141, 141);
+            display: inline-flex;
+            margin-left: 3px;
+            width: 97%;
+            padding: 5px;
+            background: rgb(22, 22, 22);
+            border-style: dotted;
+            ;
+        }
+        .Textfeld:hover{
+            border-color: green;
+        }
+        input:hover{
+            border-color: green;
+        }
+        body{
+            box-shadow: 0 50px 50px 1.5cm rgb(36, 135, 153);
+            background-color: rgb(31, 32, 32);
+            color: rgb(95, 240, 12);
+            margin: auto;
+            width: 50%;   
+            height: auto%;
+            border: 3px solid black;
+            margin-top: 1cm;
+            margin-bottom: 1cm;
+            
+            
+        }
+
+        .Senden{
+            display: block;
+            margin: auto;
+            text-align: center;
+            width: 18em;
+            border-radius: 30px;
+            padding: 15px;
+            height: auto;
+            background-color: green;
+            text-transform: uppercase;
+            filter: brightness(1.5);
+
+         
+
+
+            
+        }
+        .Senden:hover{
+            background-color: rgb(42, 20, 238);
+        }
+      a{
+          display: flex;
+          font-size: 1cm;
+          margin-left: 25cm;
+          
+        }
+         
+          
+      }
+    </style>
+</head>
+<body>
+    <h1>Kontakt aufnehmen</h1>
+    <form>
+        <label class="Formular" for="Name">Name</label>
+        <input type="text">
+        <label class="Formular" for="Vorname">Vorname</label>
+        <input type="text">
+        <label class="Formular" for="Emailadresse" >E-Mail Adresse</label>
+        <input type="Email">
+        <label class="Formular" for="Tel">Telefonnummer</label>
+        <input type="Tel"> 
+        <label class="Formular" for="Geburstag">Geburstag</label>
+        <input type="date">
+        <label class="Formular" for="Datei">Datei auswählen</label>
+        <input type="file">
+        <label class="Formular" for="Text">Nachricht</label>
+        <textarea class="Textfeld" cols="60" rows="10"></textarea>
+       
+        <br><br>
+        <input class="Senden" type="submit" value="Senden">
+        
+    </form>
+     
+</body>
+<footer>
+    <a href="#">&uarr; 
+</footer>
+</html>
